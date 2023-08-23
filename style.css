@@ -2,6 +2,7 @@ body,html{
     height: 100%;
     margin: 0px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -13,16 +14,25 @@ html{
 .grid-container{
     display: flex;
     flex-wrap: wrap;
-    margin: 125px;
-    width: 544px;
-    height: 544px;
+    margin: 50px;
+    width: 512px;
+    height: 512px;
 
 }
-
+button{
+    height: 40px;
+    width: 80px;
+    border-radius: 30px;
+    background-color: rgb(22, 48, 97);
+    color:coral;
+}
+button:hover{
+    background-color:rgb(121, 118, 30);
+    color:rgb(40, 71, 127)
+}
 .grid-square{
     background-color: white;
-    border: 1px dotted rgb(220, 114, 114);
-    height: 32px;
-    width: 32px;
+    /* border: 1px dotted rgb(220, 114, 114); */
+
 }
 
